@@ -7,13 +7,14 @@ html { font-family: 'Inter', sans-serif; }
 #navbar {
     background-color: #ffffff;
     width: 100%;
-    height: 136px;
+    height: 120px;
     border-style: solid;
     border-color: #e5e5e5;
     border-radius: 3px;
 }
 
 #hamburgerMenu {
+    size: 40px;
     position: relative;
     position: center;
     padding-top: 12px;
@@ -21,17 +22,16 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 #logolandx {
-    height: 48px;
+    height: 40px;
     padding-top: 8px;
 }
 
 #lx_btn_outline {
-    size: 48px;
+    size: 40px;
     border-style: solid;
     border-color: #2DBE60;
-    padding-right: 32px;
     border-radius: 3px;
-    padding: 16px 48px;
+    padding: 8px 16px;
     font-family: 'Inter var', sans-serif;
     color: #2DBE60;
 }
@@ -50,12 +50,27 @@ html { font-family: 'Inter', sans-serif; }
     font-style: normal;
     line-height: normal;
     letter-spacing: 0.25px;
-    padding: 16px 300px;
     padding-top: 64px;
     padding-bottom: 0x;
     text-align: center;
     color: #2dbe60;
 }
+
+.cta {
+    font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    padding-top: 96px;
+    padding-bottom: 0x;
+    text-align: center;
+    color: #5e798d;
+}
+
+
 #heroPhone {
     margin-top: 105px;
     z-index: -999;
@@ -89,7 +104,7 @@ html { font-family: 'Inter', sans-serif; }
 #lx_hero3 {
     background-image: url(img/heroBackground2.png);
     background-repeat: no-repeat;
-    padding-top: 96px;
+    padding-top: 72px;
     width: auto;
     height: auto;
 }
@@ -145,7 +160,20 @@ html { font-family: 'Inter', sans-serif; }
     padding-left: 0px;
 }
 
-#p {
+.h3 {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 44px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: bold;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    color: #2dbe60;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.p {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -156,10 +184,9 @@ html { font-family: 'Inter', sans-serif; }
     text-align: center;
     color: #5e798d;
     padding-top: 0px;  
-    margin: 24px 0px;
 }
 
-#p1 {
+.p1 {
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: bold;
@@ -169,10 +196,10 @@ html { font-family: 'Inter', sans-serif; }
     letter-spacing: 0.25px;
     color: #5e798d;
     text-align: center;
-    padding-top: 32px;
+    padding-top: 24px;
 }   
 
-#p2 {
+.p2 {
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: normal;
@@ -198,6 +225,18 @@ html { font-family: 'Inter', sans-serif; }
     padding-top: 8px;
 }   
 
+.p2-1 {
+    font-family: 'Inter';
+    color: #5e798d;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: bold;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-align: center;
+    padding-top: 8px;
+}   
 
 #p3 {
     font-family: 'Inter-Regular', sans-serif;
@@ -214,7 +253,37 @@ html { font-family: 'Inter', sans-serif; }
     margin: 0px;
 }
 
+.p3 {
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: 1.65px;
+    text-align: center;
+    color: #5e798d;
+    padding-top: 0px; 
+    padding-bottom: 32px; 
+    margin: 0px;
+}
+
 #p4 {
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #5e798d;
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    margin: 0px;
+}
+
+.p4 {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -244,6 +313,21 @@ html { font-family: 'Inter', sans-serif; }
     margin: 0px;
 }
 
+.p5 {
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #5e798d;
+    padding-top: 40px; 
+    padding-bottom: 0px; 
+    margin: 0px;
+}
+
 #p6 {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 12px;
@@ -259,7 +343,37 @@ html { font-family: 'Inter', sans-serif; }
     margin: 0px;
 }
 
+.p6 {
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #5e798d;
+    padding-top: 8px; 
+    padding-bottom: 0px; 
+    margin: 0px;
+}
+
 #p7 {
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #5e798d;
+    padding-top: 8px; 
+    padding-bottom: 0px; 
+    margin: 0px;
+}
+
+.p7 {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -290,7 +404,38 @@ html { font-family: 'Inter', sans-serif; }
     margin: 0px;
 }
 
+.p8 {
+    font-family: 'Inter-Regular', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: bold;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #5e798d; 
+    padding-bottom: 16px; 
+    margin: 0px;
+}
+
 #p9 {
+    font-family: 'Inter-Regular', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: bold;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #5e798d;
+    padding-top: 24px; 
+    padding-bottom: 0px; 
+    margin: 0px;
+}
+
+.p9 {
     font-family: 'Inter-Regular', sans-serif;
     text-align: left;
     font-size: 16px;
@@ -308,15 +453,20 @@ html { font-family: 'Inter', sans-serif; }
 
 
 
-<!--Card-->s
+<!--Card-->
+
+.icon {
+    size: 40px;
+}
 
 #circle {
     text-align: center;
 }
 
-#card_unduh {
-    height: 300px;
+.card_unduh {
+    height: 250px;
 }
+
 
 <!--Footer-->
 
@@ -344,34 +494,50 @@ html { font-family: 'Inter', sans-serif; }
     color: green;
 }
 
-#fa-linkedin {
+.line_footer {
+    width: 100%;
+    height: 2px;
+}
+
+.fa {
+    size: 32px;
+}
+
+.li {
+    list-style: none;
+    margin-right: 24px;
+    text-align: left;
+    font-size: 40px;
+    display: inline-block;
     color: #5e798d;
-    text-align: left;
-    padding-top: 16px;
-    height: 50px;
-    margin: 24px;
 }
 
-#fa-facebook {
-    color: #5e798d;
-    text-align: left;
-    padding-top: 16px;
-    height: 40px;
-    margin: 24px;   
+.li:hover {
+    color: #2dbe60;
+    transition: .5s;
 }
 
-#fa-instagram {
-    color: #5e798d;
-    text-align: left;
-    padding-top: 16px;
-    height: 40px;
-    margin: 24px;
-}
+/* unvisited link */
+  .p9:link {
+    color: #2dbe60;
+  }
+  
+  /* visited link */
+  .p9:visited {
+    color: #2dbe60;
+  }
+  
+  /* mouse over link */
+  .p9:hover {
+    color: #2dbe60;
+  }
+  
+  /* selected link */
+  .p9:active {
+    color: #2dbe60;
+  } 
 
-#socmed_logo {
-    text-align: left;
-    padding-top: 16px;
-    height: 40px;
-    margin: 24px;
-
-}
+  #unduh {
+      size: 40px;
+      background-image: url(img/unduh_app.png);
+  }
