@@ -36,6 +36,16 @@ html { font-family: 'Inter', sans-serif; }
     color: #2DBE60;
 }
 
+#lx_btn_fill {
+    background-size: 54px;
+    background-color: #2DBE60;
+    border-radius: 3px;
+    padding: 8px 16px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+
 #companyregistration {
     background-color: #ffffff;
     color: #2DBE60;
@@ -44,7 +54,7 @@ html { font-family: 'Inter', sans-serif; }
 
 #Now-you-can-invest-i {
     font-family: 'Inter', sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -88,6 +98,7 @@ html { font-family: 'Inter', sans-serif; }
 #lx_hero1 {
     background-image: url(img/heroBackground.png);
     background-repeat: no-repeat;
+    background-attachment: relative;
     padding-top: 0px;
     width: auto;
     height: auto;
@@ -96,7 +107,7 @@ html { font-family: 'Inter', sans-serif; }
 #lx_hero2 {
     background-image: url(img/heroMiddle.png);
     background-repeat: no-repeat;
-    padding-top: 120px;
+    padding-top: 32px;
     width: auto;
     height: auto;
 }
@@ -112,7 +123,7 @@ html { font-family: 'Inter', sans-serif; }
 #lx_footer {
     background-image: url(img/footerBackground1.png);
     background-repeat: no-repeat;
-    padding-top: 0 0 0 s96px;
+    padding-top: 0 0 0 96px;
     width: auto;
     height: auto;
 }
@@ -163,7 +174,7 @@ html { font-family: 'Inter', sans-serif; }
 
 .p {
     font-family: 'Inter-Regular', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -210,7 +221,7 @@ html { font-family: 'Inter', sans-serif; }
     line-height: normal;
     letter-spacing: 0.25px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 0px;
 }   
 
 .p3 {
@@ -268,7 +279,7 @@ html { font-family: 'Inter', sans-serif; }
     letter-spacing: 0.15px;
     text-align: left;
     color: #5e798d;
-    padding-top: 8px; 
+    padding-top: 0px; 
     padding-bottom: 0px; 
     margin: 0px;
 }
@@ -354,7 +365,7 @@ html { font-family: 'Inter', sans-serif; }
 .p12 {
     font-family: 'Inter-Bold', sans-serif;
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
     font-style: bold;
@@ -421,7 +432,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 #line_footer {
-    width: 100%;
+    width: auto;
     height: 2px;
 }
 
@@ -449,6 +460,7 @@ html { font-family: 'Inter', sans-serif; }
     font-size: 40px;
     display: inline-block;
     color: #5e798d;
+    padding-left: 0;
 }
 
 .li:hover {
@@ -477,6 +489,24 @@ html { font-family: 'Inter', sans-serif; }
   } 
 
   #unduh {
-      size: 40px;
-      background-image: url(img/unduh_app.png);
+      size: 30px;
+  }
+
+  #see_project {
+    background-color: #ffffff;
+    color: #2DBE60;
+    padding-right: 32px;
+  }
+
+  #lx_line_footer {
+    background-image: url(img/line_footer.png);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    padding-top: 0px;
+    width: auto;
+    height: auto;
+  }
+
+  .list-group {
+      list-style-type: none;
   }
