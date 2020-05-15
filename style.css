@@ -461,6 +461,8 @@ html { font-family: 'Inter', sans-serif; }
     display: inline-block;
     color: #5e798d;
     padding-left: 0;
+    position: relative;
+    top: -10px;
 }
 
 .li:hover {

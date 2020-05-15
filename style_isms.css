@@ -14,6 +14,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 #hamburgerMenu {
+    size: 40px;
     position: relative;
     position: center;
     padding-top: 12px;
@@ -21,19 +22,28 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 #logolandx {
-    height: 48px;
+    height: 40px;
     padding-top: 8px;
 }
 
 #lx_btn_outline {
-    size: 48px;
+    size: 40px;
     border-style: solid;
     border-color: #2DBE60;
-    padding-right: 32px;
     border-radius: 3px;
-    padding: 16px 48px;
+    padding: 8px 16px;
     font-family: 'Inter var', sans-serif;
     color: #2DBE60;
+}
+
+#lx_btn_fill {
+    background-size: 54px;
+    background-color: #2DBE60;
+    border-radius: 3px;
+    padding: 8px 16px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
 }
 
 #companyregistration {
@@ -42,96 +52,124 @@ html { font-family: 'Inter', sans-serif; }
     padding-right: 32px;
 }
 
+.lx_btn_fill {
+    size: 38px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    width: 151px;
+    height: 38px;
+    border-radius: 3px;
+    background-color: #2dbe60;
+}
+
 
 #lx_footer {
     background-image: url(img/footerBackground1.png);
     background-repeat: no-repeat;
     padding-top: 96px;
+    text-align: center;
     width: auto;
     height: auto;
 }
 
-#h1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.25px;
-    padding: 16px 300px;
-    padding-top: 64px;
-    padding-bottom: 32x;
+.lx_tabel_bg {
+    background-image: url(img/Atom/Card/bg1.png);
+    background-repeat: no-repeat;
+}
+
+.card_unduh {
     text-align: center;
-    color: #5e798d;
+    height: auto;
+    width: auto;
 }
 
-#h-1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.25px;
-    padding: 16px 300px;
-    padding-top: 64px;
-    padding-bottom: 32x;
-    text-align: left;
-    color: #2dbe60;
-}
-
-#card {
-    height: 614px;
-    width: 446px;
-}
-
-#secureimg {
+.secureimg {
     width: 654px;
     height: 500px;
 }
 
-#h2 {
+#Now-you-can-invest-i {
     font-family: 'Inter', sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: 0.25px;
-    padding: 16px 300px;
     padding-top: 64px;
     padding-bottom: 0x;
     text-align: center;
     color: #2dbe60;
 }
 
-#p1 {
+.h1 {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    padding: 16px 300px;
+    padding-top: 64px;
+    padding-bottom: 32x;
+    text-align: center;
+    color: #2dbe60;
+}
+
+.h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    padding: 16px 200px;
+    padding-top: 0px;
+    padding-bottom: 0x;
+    text-align: lef;
+    color: #5e798d;
+}
+
+.h3 {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.25px;
+    padding-top: 0px;
+    padding-bottom: 0x;
+    text-align: lef;
+    color: #2DBE60;
+}
+
+.p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: bold;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    padding: 16px 300px;
+    padding-top: 0px;
+    padding-bottom: 0x;
+    text-align: lef;
+    color: #5e798d;  
+}
+
+.p1 {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: bold;
     font-stretch: normal;
     font-style: bold;
     line-height: normal;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.25px; 
     color: #5e798d;
     text-align: left;
     padding-top: 32px;
-}   
-
-#p2 {
-
-    font-family: 'Inter', sans-serif;
-    width: 928px;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.75;
-    letter-spacing: 0.44px;
-    color: #5e798d;
-    text-align: left;
-    padding-top: 16px;
 }   
 
 .p2 {
@@ -146,7 +184,7 @@ html { font-family: 'Inter', sans-serif; }
     text-align: left;
 }
 
-#p2-1 {
+.p2-1 {
     font-family: 'Inter';
     color: #5e798d;
     font-size: 20px;
@@ -159,19 +197,18 @@ html { font-family: 'Inter', sans-serif; }
     padding-top: 8px;
 }   
 
-#p3 {
+.p3 {
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 12px;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: 0.25px;
-    color: #2dbe60;
+    color: #5e798d;
     text-align: center;
-    padding-top: 32px;
 } 
 
-#p4 {
+.p4 {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -186,7 +223,7 @@ html { font-family: 'Inter', sans-serif; }
     margin: 0px;
 }
 
-#p4-1 {
+.p4-1 {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -201,7 +238,7 @@ html { font-family: 'Inter', sans-serif; }
     margin: 0px;
 }
 
-#p5 {
+.p5 {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -216,7 +253,7 @@ html { font-family: 'Inter', sans-serif; }
     margin: 0px;
 }
 
-#p6 {
+.p6 {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -226,12 +263,12 @@ html { font-family: 'Inter', sans-serif; }
     letter-spacing: 0.15px;
     text-align: left;
     color: #5e798d;
-    padding-top: 8px; 
+    padding-top: 0px; 
     padding-bottom: 0px; 
     margin: 0px;
 }
 
-#p7 {
+.p7 {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -246,7 +283,7 @@ html { font-family: 'Inter', sans-serif; }
     margin: 0px;
 }
 
-#p8 {
+.p8 {
     font-family: 'Inter-Regular', sans-serif;
     text-align: left;
     font-size: 16px;
@@ -257,12 +294,10 @@ html { font-family: 'Inter', sans-serif; }
     letter-spacing: 0.15px;
     text-align: center;
     color: #5e798d;
-    padding-top: 16px; 
-    padding-bottom: 16px; 
     margin: 0px;
 }
 
-#p9 {
+.p9 {
     font-family: 'Inter-Regular', sans-serif;
     text-align: left;
     font-size: 16px;
@@ -280,13 +315,13 @@ html { font-family: 'Inter', sans-serif; }
 
 
 
-<!--Card-->s
+<!--Card-->
 
-#circle {
+.circle {
     text-align: center;
 }
 
-#card_unduh {
+.card_unduh {
     height: 300px;
 }
 
@@ -304,7 +339,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 #line_footer {
-    width: 100%;
+    width: auto;
     height: 2px;
 }
 
@@ -316,34 +351,71 @@ html { font-family: 'Inter', sans-serif; }
     color: green;
 }
 
-#fa-linkedin {
+.line_footer {
+    width: 100%;
+    height: 2px;
+}
+
+.fa {
+    size: 32px;
+}
+
+.li {
+    list-style: none;
+    margin-right: 24px;
+    text-align: left;
+    font-size: 40px;
+    display: inline-block;
     color: #5e798d;
-    text-align: left;
-    padding-top: 16px;
-    height: 50px;
-    margin: 24px;
+    padding-left: 0;
+    position: relative;
+    top: -10px;
 }
 
-#fa-facebook {
-    color: #5e798d;
-    text-align: left;
-    padding-top: 16px;
-    height: 40px;
-    margin: 24px;   
+.li:hover {
+    color: #2dbe60;
+    transition: .5s;
 }
 
-#fa-instagram {
-    color: #5e798d;
-    text-align: left;
-    padding-top: 16px;
-    height: 40px;
-    margin: 24px;
-}
+/* unvisited link */
+  .p9:link {
+    color: #2dbe60;
+  }
+  
+  /* visited link */
+  .p9:visited {
+    color: #2dbe60;
+  }
+  
+  /* mouse over link */
+  .p9:hover {
+    color: #2dbe60;
+  }
+  
+  /* selected link */
+  .p9:active {
+    color: #2dbe60;
+  } 
 
-#socmed_logo {
-    text-align: left;
-    padding-top: 16px;
-    height: 40px;
-    margin: 24px;
+  #unduh {
+      size: 30px;
+  }
 
-}
+  #see_project {
+    background-color: #ffffff;
+    color: #2DBE60;
+    padding-right: 32px;
+  }
+
+  #lx_line_footer {
+    background-image: url(img/line_footer.png);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    padding-top: 0px;
+    width: auto;
+    height: auto;
+  }
+
+  .list-group {
+      list-style-type: none;
+  }
